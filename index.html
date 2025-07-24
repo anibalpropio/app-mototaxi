@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoTaxi Express 🏍️</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-motorcycle"></i> MotoTaxi Los Famosos</h1>
+            <p>¡Solicita tu moto en segundos!</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2><i class="fas fa-map-marker-alt"></i> Solicita tu MotoTaxi</h2>
+                
+                <div class="input-group">
+                    <label for="nombre"><i class="fas fa-user"></i> Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Ej: Juan Pérez">
+                </div>
+
+                <div class="input-group">
+                    <label for="telefono"><i class="fas fa-phone"></i> Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="Ej: +51987654321">
+                </div>
+
+                <div class="input-group">
+                    <label for="ubicacion"><i class="fas fa-location-dot"></i> Ubicación:</label>
+                    <input type="text" id="ubicacion" placeholder="O usa GPS">
+                    <button id="btn-gps" onclick="getLocation()">
+                        <i class="fas fa-location-crosshairs"></i> Usar GPS
+                    </button>
+                </div>
+
+                <button class="btn-pedir" onclick="solicitarMototaxi()">
+                    <i class="fas fa-paper-plane"></i> Pedir MotoTaxi
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 MotoTaxi Famoso | Derecho y Creado Int.50</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
