@@ -4,14 +4,11 @@
 // IMPORTANTE: Cambia estos números por los de tus conductores reales
 const CONDUCTORES = [
     { nombre: "Anibal", telefono: "+59172606929" },
-    { nombre: "Claudio", telefono: "+59177348376" },
-    { nombre: "José", telefono: "+59176543210" },
-    { nombre: "Ana", telefono: "+591xxxxxx" },
     // Agrega más conductores aquí
 ];
 
 // URL base de tu aplicación (cámbiala por tu GitHub Pages URL)
-const URL_BASE = "https://tu-usuario.github.io/tu-repositorio"; // CAMBIAR ESTO
+const URL_BASE = "https://github.com/anibalpropio/app-mototaxi"; // CAMBIAR ESTO
 
 // ========================================
 // FUNCIÓN PRINCIPAL MEJORADA
