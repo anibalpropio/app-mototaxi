@@ -322,3 +322,28 @@ footer {
     bottom: 20%;
   }
 }
+
+/* Estilos adicionales para el sistema de confirmación */
+.info-espera {
+    background: rgba(37, 99, 235, 0.1);
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-primario);
+    font-weight: 500;
+}
+
+.info-espera i {
+    font-size: 1.2em;
+}
+
+/* Mejoras para responsive */
+@media (max-width: 480px) {
+    .info-espera {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}
