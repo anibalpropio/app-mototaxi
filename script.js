@@ -3,7 +3,7 @@
 // ========================================
 // IMPORTANTE: Cambia estos números por los de tus conductores reales
 const CONDUCTORES = [
-    { nombre: "Anibal", telefono: "+59172606929" },
+    { nombre: "Anibal", telefono: "+59178548281" },
     // Agrega más conductores aquí
 ];
 
