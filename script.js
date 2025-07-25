@@ -8,7 +8,7 @@ const CONDUCTORES = [
 ];
 
 // URL base de tu aplicación (cámbiala por tu GitHub Pages URL)
-const URL_BASE = "https://github.com/anibalpropio/app-mototaxi"; // CAMBIAR ESTO
+const URL_BASE = "https://github.com/anibalpropio/app-mototaxi/"; // CAMBIAR ESTO
 
 // ========================================
 // FUNCIÓN PRINCIPAL MEJORADA
